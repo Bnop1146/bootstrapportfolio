@@ -1,6 +1,6 @@
 /*===== Farver =====*/
 $primary: #FF9705;
-$secondary: #232b2b;
+$secondary: black;
 
 
 @import './bootstrap.scss';
@@ -161,27 +161,7 @@ $secondary: #232b2b;
   
   /*===== NAV =====*/
   .nav {
-    height: var(--header-height);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  
-    &__menu {
-      @media screen and (max-width: 768px) {
-        position: fixed;
-        top: var(--header-height);
-        right: -100%;
-        width: 80%;
-        height: 100%;
-        padding: 2rem;
-        background: rgba(255, 255, 255, 0.3);
-        transition: .5s;
-        backdrop-filter: blur(10px);
-      }
-    }
-  
+    
     &__item {
         display: flex;
         justify-content: center;
@@ -200,7 +180,6 @@ $secondary: #232b2b;
         border-radius: 45px;
         box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
         transition: all 0.3s ease 0s;
-        cursor: pointer;
         outline: none;
       
     }
@@ -230,21 +209,7 @@ $secondary: #232b2b;
     }
   }
   
-  /*=== Vis Menu ===*/
-  .show {
-    right: 0;
-  }
   
-  /*Den aktive menu*/
-  .active::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 0.18rem;
-    left: 0;
-    top: 2rem;
-    background-color: var(--first-color);
-  }
   
   /*===== HOME =====*/
   .home {
@@ -385,47 +350,7 @@ $secondary: #232b2b;
     }
   }
   
-  /* ===== PORTFOLIO =====*/
-  .portfolio {
-    background-color: var(--white-color);
   
-    &__container {
-      justify-items: center;
-      row-gap: 2rem;
-    }
-  
-    &__img {
-      position: relative;
-      overflow: hidden;
-  
-      & img {
-        border-radius: .5rem;
-      }
-  
-      &:hover .portfolio__link {
-        bottom: 0;
-      }
-    }
-  
-    &__link {
-      position: absolute;
-      bottom: -100%;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #ff970546;
-      border-radius: .5rem;
-      cursor: pointer;
-      backdrop-filter: blur(10px);
-      transition: .3s;
-  
-      &-name {
-        color: var(--footer-color);
-      }
-    }
-  }
   
   /* ===== CONTACT =====*/
   .contact {
@@ -487,14 +412,7 @@ $secondary: #232b2b;
       margin-bottom: var(--mb-2);
     }
   
-    &__link {
-      padding: .25rem 0;
-      color: var(--first-color);
-  
-      &:hover {
-        color: var(--first-color);
-      }
-    }
+    
   
     &__social {
       font-size: 1.4rem;
@@ -541,11 +459,7 @@ $secondary: #232b2b;
       &__list {
         display: flex;
       }
-  
-      &__item {
-        margin-left: var(--mb-4);
-        margin-bottom: 0;
-      }
+
   
       &__toggle {
         display: none;
