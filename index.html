@@ -7,20 +7,23 @@
     <title>Bootstrap Portfolio</title>
 
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
-  <body class="bg-secondary">
-    <header class="l-header bg-primary">
+  <body class="bg-black text-white container ">
+
+    <!-- Nav Section -->
+    <header class=" bg-transparent">
       <nav
-        class="nav bd-grid d-flex justify-content-between align-items-center mt-1 mb-1"
+        class="nav   m-auto d-flex justify-content-between align-items-center mt-5 mb-5"
       >
         <div>
           <a class="nav__logo">
             <img
-              src=""
+              
               style="width: 30px"
               class="d-inline-block align-top"
-              alt=""
+              
             />
             Joachim Berner
           </a>
@@ -28,85 +31,84 @@
 
         <div class="" id="nav-menu">
           <button class="nav__item border-1 border-white">
-            <a href="/" class=" ">Download CV</a>
+            <a href="https://www.linkedin.com/in/joachim-berner-249906208" class=" ">Download CV</a>
           </button>
         </div>
 
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
+        
       </nav>
     </header>
 
-    <main class="l-main">
-      <!-- Hero Section -->
-      <section class="hero-section"></section>
-
-      <section class="home bg-primary" id="home">
-        <div class="home__container bd-grid">
-          <h1 class="home__title"><span>HE</span><br />LLO.</h1>
-
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-link"
-              ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
-            >
+<!-- Hero Section -->
+    <section>
+      <div class=" col px-4 py-5 ">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="/assets/images/Mit projekt.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
           </div>
 
-          <img
-            src="assets/images/Polygon_potræt.png"
-            alt=""
-            class="home__img"
-          />
+          <div class="col-lg-6">
+            <h2 class="text-secondary ">Full-Stack Web developer</h2>
+            <p class="mb-4 text-secondary">(In training)</p>
+            <h1 class="display-5 fw-bold lh-1 mb-3">HI, I AM JOACHIM BERNER</h1>
+            <p class="">And i am a front-end <span class="text-secondary">&</span> back-end Web Developer</p>
+            <div class="d-grid pt-3 gap-2 d-md-flex justify-content-md-start">
+              <button class="nav__item pt border-1 border-white">
+                <a href="https://www.linkedin.com/in/joachim-berner-249906208" class=" ">Check me out</a>
+              </button>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
+
+    <main class="">
+      
+      <!-- About Section -->
+      
       <section class="about section text-white" id="about">
-        <h2 class="section-title text-primary">About Me</h2>
+        
 
-        <div class="about__container bd-grid">
-          <div class="about__img bg-primary">
-            <img src="./assets/images/5_adobespark.png" alt="" />
-          </div>
+        <div class="col px-4 py-5 ">
+          <div class="row align-items-center g-5 py-5">
+            <div class="about__img col-10 col-sm-8 col-lg-6  ">
+              <img class="rounded-circle border border-secondary" src="./assets/images/5_adobespark.png" alt="" />
+            </div>
 
-          <div class="mb-4">
-            <h2 class="about__subtitle">
-              My name is <span class="text-primary">Joachim</span>
-            </h2>
-            <h5 class="about__profession">Web Developer</h5>
-            <p class="about__text">
-              I am Currently studying to Full-stack Devolper, in Roskilde
-              university, where i will finish in Jan.
-              <span class="text-primary">2024.</span>
+            <div class="mb-4 col-lg-6">
+              <h1 class="text-secondary pb-4">About Me</h1>
+              <h3 class="about__subtitle">
+                My name is <span class="text-secondary">Joachim</span>
+              </h3>
+              <h5 class="about__profession">Web Developer</h5>
+              <p class="about__text">
+                I am Currently studying to Full-stack Devolper, in Roskilde
+                university, where i will finish in Jan.
+                <span class="text-secondary">2024.</span>
 
-              I my daily life i like to search new and interesting ways, to make websites to enhance my
-              skills in the subject.    
-              which often result in small pages either in Visual Studio Code or PHP storm and it is often accompanied,
-              by the help of Google and Youtube, to see what it ends up with by Exciting projects.
-            </p>
+                I my daily life i like to search new and interesting ways, to make websites to enhance my
+                skills in the subject.    
+                which often result in small pages either in Visual Studio Code or PHP storm and it is often accompanied,
+                by the help of Google and Youtube, to see what it ends up with by Exciting projects.
+              </p>
 
-            <p class="about__text">
-                Currently i spend a lot of my time learning all the new things from the University, 
-                such as React JS and various CSS frameworks such as Tailwind
-            </p>
+              <p class="about__text">
+                  Currently i spend a lot of my time learning all the new things from the University, 
+                  such as React JS and various CSS frameworks such as Tailwind
+              </p>
 
-            
+              
 
-            <div class="d-flex flex-wrap">
-              <button class="nav__item m-1">
-                <a
-                  href="https://www.linkedin.com/in/joachim-berner-249906208/"
-                  class="fab fa-linkedin-in text-white"
-                ></a
-                >LinkedIn
-              </button>
+              <div class="d-flex flex-wrap">
+                <a href="https://www.linkedin.com/in/joachim-berner-249906208" class="fa fa-linkedin btn "></a>
 
-              <button class="nav__item m-1">
-                <a
-                  href="https://github.com/Bnop1146"
-                  class="fab fa-github text-warning"
-                ></a>
-                Github
-              </button>
+                <a href="https://github.com/Bnop1146" class="fa fa-github btn"></a>
+
+                
+                
+                
+              </div>
             </div>
           </div>
         </div>
@@ -114,11 +116,11 @@
 
       <section class="text-white p-5" id="skills">
         <div class="service-area creative-service-wrapper pb--120 bg_color--8">
-          <div class="container">
+          <div class="">
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-title text-center mb--30 mb_sm--0">
-                  <h1 class="d-flex justify-content-center p-4 mb-4 text-primary"
+                  <h1 class="d-flex justify-content-center p-4 mb-4 text-secondary"
                     >What I can do for you</
                   >
                 </div>
@@ -244,7 +246,7 @@
             </div>
 
             <div class=" ">
-              <p class="text-primary">HTLM - CSS</p>
+              <p class="text-secondary">HTML5 - CSS</p>
               <div class="progress mb-3">
                 <div
                   class="progress-bar progress-bar-striped progress-bar-animated"
@@ -258,7 +260,7 @@
                 </div>
               </div>
 
-              <p class="text-primary">
+              <p class="text-secondary">
                 CSS Frameworks - Tailwind, Bootstrap, Materilize
               </p>
               <div class="progress mb-3">
@@ -274,7 +276,7 @@
                 </div>
               </div>
 
-              <p class="text-primary">React JS - Javascript</p>
+              <p class="text-secondary">React JS - Javascript</p>
               <div class="progress mb-3">
                 <div
                   class="progress-bar progress-bar-striped progress-bar-animated"
@@ -288,7 +290,7 @@
                 </div>
               </div>
 
-              <p class="text-primary">PHP - Database</p>
+              <p class="text-secondary">PHP - Database</p>
               <div class="progress mb-3">
                 <div
                   class="progress-bar progress-bar-striped progress-bar-animated"
@@ -302,7 +304,7 @@
                 </div>
               </div>
 
-              <p class="text-primary">Typescript</p>
+              <p class="text-secondary">Typescript</p>
               <div class="progress mb-3">
                 <div
                   class="progress-bar progress-bar-striped progress-bar-animated"
@@ -321,7 +323,7 @@
       </section>
 
       <section class="portfolio section text-white p-2" id="portfolio">
-        <h1 class="d-flex justify-content-center p-4 mb-4 text-primary">Portfolio</h1>
+        <h1 class="d-flex justify-content-center p-4 mb-4 text-secondary">Portfolio</h1>
 
         <div class="portfolio__container bd-grid">
           <div class="mt-1 portfolio__img border-bottom border-primary">
@@ -376,47 +378,40 @@
           Contact Info
         </h1>
 
-        <div class="contact__container bd-grid">
-          <div class="contact__info">
-            <h3 class="contact__subtitle text-primary">Email</h3>
-            <span class="contact__text">Joachim.berner@hotmail.com</span>
 
-            <h3 class="contact__subtitle text-primary">Phone</h3>
-            <span class="contact__text">+45 - 6049****</span>
-
-            <h3 class="contact__subtitle text-primary">Adress</h3>
-            <span class="contact__text">4800 Nykøbing Falster Danmark</span>
-          </div>
-
-          <form action="" class="contact__form">
-            <div class="contact__inputs">
-              <input type="text" placeholder="Navn" class="contact__input" />
-              <input type="email" placeholder="Email" class="contact__input" />
+            <div class="container">
+              <div class="row justify-content-center align-content-center">
+                <div class="col-md-6">
+                  <h1 class="contact__subtitle text-primary">Email:    
+                    <a href="mailto:example@example.com" class=" text-white mb-3 text-decoration-underline ">Joachim.berner@hotmail.com</a>
+                  </h1>
+                  
+        
+                    <h2 class="contact__subtitle text-primary">Phone
+                      <a onclick="location.href='tel:+60497627';" class="text-white mb-3 text-decoration-underline">6049****</a>
+                    </h2>
+                  
+                </div>
+                <div class="col-md-6">
+                  <img src="assets/images/Phone.png" alt="Image Description">
+                </div>
+              </div>
             </div>
-
-            <textarea
-              placeholder="Din Besked"
-              rows="6"
-              class="contact__input"
-            ></textarea>
-
-            <button type="submit" class="btn">
-              <i class="far fa-paper-plane contact__button text-white"> Send</i>
-            </button>
-          </form>
-        </div>
+            
+        
       </section>
     </main>
+  </div>
 
     <footer
       class="footer section bg-black text-white d-flex mt-5 border-top border-primary"
     >
       <div class="footer__container bd-grid">
-        <div class="footer__data">
+        <div class="footer__data text-primary">
           <h3 class="">Joachim Berner</h3>
-          <p class="footer__text text-warning">Well that was all from me</p>
-          <p class="footer__text text-warning">You can also find me on</p>
-          <p class="footer__text text-warning">Social media</p>
+          <p class="footer__text ">Well that was all from me</p>
+          <p class="footer__text ">You can also find me on</p>
+          <p class="footer__text ">Social media</p>
         </div>
 
         <div class="footer__data d-flex justify-content-center text-center">
@@ -426,22 +421,16 @@
         </div>
 
         <div class="">
-          <h2 class="footer__title text-center">Social</h2>
-          <button class="nav__item mb-2">
-            <a
-              href="https://www.linkedin.com/in/joachim-berner-249906208/"
-              class="fab fa-linkedin-in text-white"
-            ></a
-            >LinkedIn
-          </button>
+          <h2 class="footer__title text-center text-primary">Look me up</h2>
+          
+            <a href="https://www.linkedin.com/in/joachim-berner-249906208" class="fa fa-linkedin btn "></a>
+            
+          
 
-          <button class="nav__item">
-            <a
-              href="https://github.com/Bnop1146"
-              class="fab fa-github text-warning"
-            ></a
-            >Github
-          </button>
+          
+            <a href="https://github.com/Bnop1146" class="fa fa-github btn"></a>
+            
+          
         </div>
       </div>
     </footer>

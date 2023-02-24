@@ -1,6 +1,7 @@
+
 /*===== Farver =====*/
 $primary: #FF9705;
-$secondary: black;
+$secondary: #FF9705;
 
 
 @import './bootstrap.scss';
@@ -82,8 +83,27 @@ $secondary: black;
   
   
  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
   
-  
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+
+  .fa-github {
+    background: #333333;
+    color: white;
+  }
   
   .section {
     padding: 3rem 0;
@@ -301,8 +321,8 @@ $secondary: black;
     margin-bottom: 2rem;
     min-height: 326px;
     padding: 3rem;
-    border: solid 2px #FF9705;
-    border-radius: 30px;
+    border: solid 2px white;
+    border-radius: 15px;
 
 }
 
